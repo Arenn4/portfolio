@@ -2,7 +2,12 @@
 
 # dependencies
 /node_modules
-
+.DS_Store
+node_modules/
+.env
+*.orig
+.idea/
+.vscode/
 # testing
 /coverage
 
@@ -20,7 +25,3 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .env
-
-###
-eslint-disable 
-###
