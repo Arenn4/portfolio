@@ -5,6 +5,7 @@ const morgan = require('morgan')
 const skillRouter = require('./routes/skillRouter');
 const PORT = process.env.PORT || 8073
 const env = require('dotenv')
+const path = require("path")
 const sgMail = require('@sendgrid/mail')
 require('dotenv').config()
 
@@ -15,6 +16,8 @@ sgMail.setApiKey(process.env.SENDGRID_API_KEY)
 //MIDDLEWARE
 app.use(express.json())
 app.use(morgan('dev'))
+
+app.use(express.static(path.join(__dirname, "client", "build")))
 
 //connect to mongo
 mongoose.connect(`process.env.MONGODB_URI || mongodb://localhost:27017/portfolio-skills`, { useNewUrlParser: true}, )
@@ -34,6 +37,10 @@ app.post('/send', (req, res) => {
     };
     sgMail.send(msg)
 })
+
+app.get("*", (req, res) => {
+    res.sendFile(path.join(__dirname, "client", "build", "index.html"));
+});
 
 //listen
 app.listen(PORT, () => {
