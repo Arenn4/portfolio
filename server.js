@@ -20,7 +20,8 @@ app.use(morgan('dev'))
 app.use(express.static(path.join(__dirname, "client", "build")))
 
 //connect to mongo
-mongoose.connect(`process.env.MONGODB_URI || mongodb://localhost:27017/portfolio-skills`, { useNewUrlParser: true}, )
+console.log(process.env.MONGODB_URI)
+mongoose.connect(`process.env.MONGODB_URI || mongodb://localhost:27017/portfolio-skills`, { useNewUrlParser: true})
     .then(() => console.log("MongoDB is now connected"))
     .catch(err => console.error(err))
 
