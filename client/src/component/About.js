@@ -29,7 +29,7 @@ class About extends Component{
                 <img className="port-image" src={portfolio} alt=""/>
             </div>
             <div className="about-me">
-                <p className="about-desc">Hello and welcome to my portfolio! I am a Management Information Systems major from Eastern Illinois University. I have spent the past few years as a Business Analyst/Scrum Master in the IT field. I recently completed a Full-Stack JavaScript immersive program and now begin my next adventure in programming!</p>
+                <p className="about-desc">Hello and welcome to my portfolio! I am a Management Information Systems major from Eastern Illinois University. I have spent the past few years as a Business Analyst/Scrum Master in the IT field. I recently completed a Full-Stack JavaScript immersive program and now begin my next adventure in programming! I am slowly improving on this site each day, so be patient with me in this transition!</p>
                 <p className="project-intro">A few of my projects are listed below:</p>
                 {/* <a className="projects">ajmakadistributing.com</a> */}
                 <a className="projects" href="http://www.gspfinder.surge.sh">www.gspfinder.surge.sh</a>
