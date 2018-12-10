@@ -108,7 +108,7 @@ html{
     padding-bottom: 25px;
 }
 
-@media only screen and (max-width: 330px){
+@media only screen and (max-width: 340px){
     .portfolio-image{
         border-radius: 60%;
         align-items: center;
@@ -199,7 +199,7 @@ html{
     }
 }
 
-@media only screen and (max-width: 340px){
+/* @media only screen and (max-width: 340px){
     .project-images{
         height: 125px;
         width: 125px;
@@ -211,9 +211,9 @@ html{
         width: 125px;
         box-shadow: 5px 5px 5px #097392;
     }
-}
+} */
 
-@media only screen and (max-width: 330px){
+@media only screen and (max-width: 340px){
     .project-images{
         height: 100px;
         width: 100px;
