@@ -112,7 +112,7 @@ html{
     .portfolio-image{
         border-radius: 60%;
         align-items: center;
-        height: 100px;
+        height: 125px;
         width: 125px;
         padding-top: 25px;
         padding-bottom: 25px;
@@ -213,7 +213,7 @@ html{
     }
 }
 
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 330px){
     .project-images{
         height: 100px;
         width: 100px;
