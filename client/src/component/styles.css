@@ -201,14 +201,14 @@ html{
 
 @media only screen and (max-width: 400px){
     .project-images{
-        height: 150px;
-        width: 150px;
+        height: 200px;
+        width: 200px;
         border-radius: 15px;
     }
     .project-images:hover{
         border-radius: 15px;
-        height: 150px;
-        width: 150px;
+        height: 200px;
+        width: 200px;
         box-shadow: 5px 5px 5px #097392;
     }
 }
