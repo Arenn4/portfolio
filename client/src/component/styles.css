@@ -108,17 +108,6 @@ html{
     padding-bottom: 25px;
 }
 
-@media only screen and (max-width: 340px){
-    .portfolio-image{
-        border-radius: 60%;
-        align-items: center;
-        height: 125px;
-        width: 125px;
-        padding-top: 25px;
-        padding-bottom: 25px;
-    }
-}
-
 /*  ********************* About Container *********************  */
 .about-container{
     color: #83B4B3;
@@ -199,7 +188,7 @@ html{
     }
 }
 
-/* @media only screen and (max-width: 340px){
+@media only screen and (max-width: 360px){
     .project-images{
         height: 125px;
         width: 125px;
@@ -209,23 +198,10 @@ html{
         border-radius: 15px;
         height: 125px;
         width: 125px;
-        box-shadow: 5px 5px 5px #097392;
-    }
-} */
-
-@media only screen and (max-width: 340px){
-    .project-images{
-        height: 100px;
-        width: 100px;
-        border-radius: 15px;
-    }
-    .project-images:hover{
-        border-radius: 15px;
-        height: 100px;
-        width: 100px;
         box-shadow: 5px 5px 5px #097392;
     }
 }
+
 
 
 /*  ********************* Skills/Extra Info container *********************  */
