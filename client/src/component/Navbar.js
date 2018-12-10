@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom'
-import './styles.css'
+import './styles.css';
 
 class Navbar extends Component{
     constructor(){
@@ -22,13 +21,9 @@ class Navbar extends Component{
     render(){
     return (
         <div>
-            <div className="nav-container">
-                <div><Link to="/" className="title">Alex Renn</Link></div>
-                <div></div>
-                <div className="nav-items"><Link to="/">Home </Link></div>
-                <div className="nav-items"><Link to="/about">About </Link></div>
-                <div className="nav-items"><Link to="/contact">Contact</Link></div>
-                <div>
+            <div className="navbar-container">
+                Alex Renn
+                {/* <div>
                 {this.state.status
                 ?
                 
@@ -47,8 +42,8 @@ class Navbar extends Component{
                     </div>
                     
                 }
-                </div>
-            </div>
+                </div>*/}
+            </div> 
         </div>
         );
     }

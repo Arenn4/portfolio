@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import { connect } from 'react-redux';
 import { sendEmail } from '../redux'
 import './styles.css'
@@ -37,30 +37,32 @@ class Contact extends Component{
     
         render(){
         return (
+            <Fragment>
+            <div className="section-titles">Connect with Me</div>
             <div className="contact-container z-depth-4">
                 <div className="row">
                     <form onSubmit={this.sendMsg}className="col s12">
                         <div className="row">
                             <div className="input-field col s6">
-                            <input value={this.state.fName} type="text" name="fName" className="validate" onChange={this.handleChange}/>
+                            <input value={this.state.fName} type="text" name="fName" className="validate white-text" onChange={this.handleChange}/>
                             <label >First Name</label>
                             </div>
                             <div className="input-field col s6">
-                                <input value={this.state.lName} type="text" name="lName" className="validate" onChange={this.handleChange}/>
+                                <input value={this.state.lName} type="text" name="lName" className="validate white-text" onChange={this.handleChange}/>
                                 <label >Last Name</label>
                             </div>
                         </div>
                         <div className="row">
                             <div className="input-field col s12">
-                                <input value={this.state.email} type="email" name="email" className="validate" onChange={this.handleChange}/>
-                                <label >Email</label>
+                                <input value={this.state.email} type="text" name="email" className="validate white-text" onChange={this.handleChange}/>
+                                <label >Enter Email Address</label>
                             </div>
                         </div>
                         <div className="row">
                             <div className="col s12">
                                 <div className="row">
                                     <div className="input-field col s12">
-                                    <textarea value={this.state.message} className="materialize-textarea" name='message' onChange={this.handleChange}></textarea>
+                                    <textarea value={this.state.message} className="materialize-textarea white-text" name='message' onChange={this.handleChange}></textarea>
                                     <label >Enter Message</label>
                                     </div>
                                 </div>
@@ -72,6 +74,7 @@ class Contact extends Component{
                     </form>
                 </div>
             </div>
+            </Fragment>
             );
         }
     };

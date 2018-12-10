@@ -1,21 +1,24 @@
 import React, { Component } from 'react';
-import Home from './component/Home'
-import About from './component/About'
-import Contact from './component/Contact'
-import { Switch, Route } from 'react-router-dom'
-import Navbar from './component/Navbar'
-import './component/styles.css'
+import Navbar from './component/Navbar';
+import Image from './component/Image';
+import About from './component/About';
+import Projects from './component/Projects';
+import ExtraInfo from './component/ExtraInfo';
+import Contact from './component/Contact';
+import Footer from './component/Footer';
+import './component/styles.css';
 
 class App extends Component {
   render() {
     return (
-      <div >
+      <div className="portfolio-container">
         <Navbar />
-          <Switch>
-            <Route exact path='/' component={ Home } />
-            <Route path='/about' component={ About } />
-            <Route path='/contact' component={ Contact } />
-          </Switch>
+          <Image />
+          <About />
+          <Projects />
+          <ExtraInfo />
+          <Contact />
+        <Footer />
       </div>
     );
   }
