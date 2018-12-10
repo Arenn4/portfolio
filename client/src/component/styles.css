@@ -108,6 +108,17 @@ html{
     padding-bottom: 25px;
 }
 
+@media only screen and (max-width: 400px){
+    .portfolio-image{
+        border-radius: 60%;
+        align-items: center;
+        height: 125px;
+        width: 125;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+}
+
 /*  ********************* About Container *********************  */
 .about-container{
     color: #83B4B3;
@@ -188,7 +199,7 @@ html{
     }
 }
 
-@media only screen and (max-width: 360px){
+@media only screen and (max-width: 400px){
     .project-images{
         height: 125px;
         width: 125px;
