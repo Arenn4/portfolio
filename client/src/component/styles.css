@@ -112,8 +112,8 @@ html{
     .portfolio-image{
         border-radius: 60%;
         align-items: center;
-        height: 125px;
-        width: 125;
+        height: 150px;
+        width: 150px;
         padding-top: 25px;
         padding-bottom: 25px;
     }
@@ -201,14 +201,14 @@ html{
 
 @media only screen and (max-width: 400px){
     .project-images{
-        height: 125px;
-        width: 125px;
+        height: 150px;
+        width: 150px;
         border-radius: 15px;
     }
     .project-images:hover{
         border-radius: 15px;
-        height: 125px;
-        width: 125px;
+        height: 150px;
+        width: 150px;
         box-shadow: 5px 5px 5px #097392;
     }
 }
