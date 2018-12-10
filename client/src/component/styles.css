@@ -131,7 +131,7 @@ html{
     font-size: 25px;
 }
 
-@media only screen and (max-width: 550px){
+@media only screen and (max-width: 615px){
     .about-container{
         color: #83B4B3;
         align-items: center;
