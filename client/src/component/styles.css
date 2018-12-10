@@ -108,6 +108,17 @@ html{
     padding-bottom: 25px;
 }
 
+@media only screen and (max-width: 270px){
+    .portfolio-image{
+        border-radius: 60%;
+        align-items: center;
+        height: 50px;
+        width: 50px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+}
+
 /*  ********************* About Container *********************  */
 .about-container{
     color: #83B4B3;
@@ -192,6 +203,20 @@ html{
     .project-images{
         height: 150px;
         width: 150px;
+        border-radius: 15px;
+    }
+    .project-images:hover{
+        border-radius: 15px;
+        height: 150px;
+        width: 150px;
+        box-shadow: 5px 5px 5px #097392;
+    }
+}
+
+@media only screen and (max-width: 270px){
+    .project-images{
+        height: 100px;
+        width: 100px;
         border-radius: 15px;
     }
     .project-images:hover{
