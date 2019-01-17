@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../data/Alex Renn-Front End Developer (2).pdf'
+import resume from '../data/Alex Renn-Front End Developer1.pdf'
 import './styles.css';
 
 const Footer = () => {

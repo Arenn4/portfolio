@@ -24,7 +24,7 @@ class About extends Component{
     render(){
     return (
         <div className="about-container">
-            Experienced Scrum Master turned full stack React developer, who enjoys problem solving. I believe two heads are better than one and finding the value in opposing viewpoints. I enjoy playing basketball and giving myself carpal tunnel via computer games. 
+            Experienced Scrum Master turned Full-Stack React developer, who enjoys problem solving. I believe two heads are better than one and finding the value in opposing viewpoints. I enjoy playing basketball and giving myself carpal tunnel via computer games. 
         </div>
         );
     }
